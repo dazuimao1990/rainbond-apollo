@@ -1,4 +1,5 @@
 #!/bin/bash
+[[ $PAUSE ]] && sleep $PAUSE
 SERVICE_NAME=apollo-adminservice
 ## Adjust log dir if necessary
 LOG_DIR=/opt/logs/
