@@ -4,7 +4,7 @@ SERVICE_NAME=apollo-adminservice
 LOG_DIR=/opt/logs/100003172
 #Create log directory
 if [[ ! -d ${LOG_DIR} ]];then
-  mkdir -p ${LOG_DIR}
+  sudo mkdir -p ${LOG_DIR}
 fi
 ## Adjust server port if necessary
 SERVER_PORT=8090
