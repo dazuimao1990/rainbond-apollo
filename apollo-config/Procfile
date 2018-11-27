@@ -1,0 +1,1 @@
+web: bash ./scrpts/config_startup.sh

@@ -1,0 +1,1 @@
+web: bash ./scripts/admin_startup.sh
