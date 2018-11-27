@@ -2,11 +2,7 @@
 [[ $PAUSE ]] && sleep $PAUSE
 SERVICE_NAME=apollo-adminservice
 ## Adjust log dir if necessary
-LOG_DIR=/opt/logs/
-#Create log directory
-if [[ ! -d ${LOG_DIR} ]];then
-  sudo mkdir -p ${LOG_DIR}
-fi
+LOG_DIR=/opt/logs/100003172
 ## Adjust server port if necessary
 SERVER_PORT=8090
 

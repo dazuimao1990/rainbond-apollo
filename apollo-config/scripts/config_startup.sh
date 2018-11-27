@@ -3,9 +3,6 @@ SERVICE_NAME=apollo-configservice
 ## Adjust log dir if necessary
 LOG_DIR=/opt/logs/100003171
 #Create log directory
-if [[ ! -d ${LOG_DIR} ]];then
-  mkdir -p ${LOG_DIR}
-fi
 ## Adjust server port if necessary
 SERVER_PORT=8080
 
