@@ -1,7 +1,7 @@
 #!/bin/bash
 SERVICE_NAME=apollo-adminservice
 ## Adjust log dir if necessary
-LOG_DIR=/opt/logs/100003172
+LOG_DIR=/opt/logs/
 #Create log directory
 if [[ ! -d ${LOG_DIR} ]];then
   sudo mkdir -p ${LOG_DIR}
