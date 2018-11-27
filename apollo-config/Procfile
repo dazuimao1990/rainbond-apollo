@@ -1,1 +1,1 @@
-web: bash ./scrpts/config_startup.sh
+web: bash ./scripts/config_startup.sh
